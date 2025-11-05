@@ -28,28 +28,51 @@
 
     padding: 60px;
 
+    h2{
+        padding-top: 48px;
+    }
+
+    p{
+        padding-top: 20px;
+    }
+
 
 }
 .icon-foto{
-    padding-bottom: 48px ;
+
+    position: relative;
+    display: inline-block;
+
+    .icon-code{
+        position: absolute;
+
+        position: absolute;
+        bottom: 0;  /* encosta na parte de baixo */
+        right: 0;   /* encosta no canto direito */
+
+    }
 }
 
 .perfil-img{
         height: 96px;
         width: 96px;
+
+        border-radius: 50%;
+        border: 3px solid #ff4d6d;
 }
 
 .stacks-container{
     display: flex;
 
     padding-top:48px;
-    padding-bottom: 60px;
+    padding-bottom: 94px;
     gap: 16PX;
 }
 
 .stacks{
     color: var(--gray-200);
     font-size: var(--fs-md);
+    font-family: var(--ff-mavenpro);
     display: flex;
     align-items: center;
     gap: 8px ;
@@ -68,5 +91,54 @@
 }
 
 .pagetwo{
+    background-color: var(--gray-500);
+}
+
+.titletwo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    padding-top: 52px;
+    padding-bottom: 56px;
+    gap: 8px;
+}
+.container-projects{
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha */
+    justify-content: center; /* centraliza os cards */
+    gap: 24px;
+    padding-bottom: 144px;
+}
+
+.project-card{
+    padding: 12px;
     background-color: var(--gray-400);
+    border-radius: 12px;
+
+    width: 340px;      
+    min-height: 280px; 
+    
+
+    img{
+        height: 156px;
+        width: 306px;
+        border-radius: 8px;
+    }
+
+    h4{
+        padding-top: 12px;
+    }
+
+    p{
+        padding-top: 8px;
+    }
+}
+
+.project-card .subtitle-project {
+  flex-grow: 1;
+}
+
+.pagethree{
+    background-color: var(--gray-600);
 }
