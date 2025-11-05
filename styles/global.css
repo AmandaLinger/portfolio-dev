@@ -1,3 +1,16 @@
 .pageone{
     background-image: url(../assets/img/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.perfil-img{
+        height: 96px;
+        width: 96px;
+    }
+
+
+.pagetwo{
+    background-color: var(--gray-400);
 }
