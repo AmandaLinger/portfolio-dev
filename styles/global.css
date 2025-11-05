@@ -58,7 +58,7 @@
         width: 96px;
 
         border-radius: 50%;
-        border: 3px solid #ff4d6d;
+        border: 3px solid var(--red);
 }
 
 .stacks-container{
@@ -115,6 +115,7 @@
     padding: 12px;
     background-color: var(--gray-400);
     border-radius: 12px;
+    border: 2px solid transparent;
 
     width: 340px;      
     min-height: 280px; 
@@ -133,6 +134,10 @@
     p{
         padding-top: 8px;
     }
+}
+
+.project-card:hover{
+    border: 2px solid var(--gray-200);
 }
 
 .project-card .subtitle-project {
@@ -188,15 +193,43 @@
 
 }
 
+
 .social-button{
-    background-color: var(--gray-400);
     display: flex;
+    background-color: var(--gray-400);
+    font-family: var(--ff-mavenpro);
+    border: 2px solid transparent;
+    font-size: var(--fs-md);
+    height: 48px ;
+    width: 350px;
+    padding: 12px;
+    border-radius: 8px;
 
-
+    justify-content: space-between;
     .contato{
         display: flex;
         align-items: center;
         gap: 8px;
         color: var(--gray-100);
+        background-color: var(--gray-400);
+        font-size: var(--fs-sm);
     }
+
+    img{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 12px;
+
+    padding-bottom: 200px;
+}
+
+.social-button:hover{
+    border: 2px solid var(--blue);
 }
