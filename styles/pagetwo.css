@@ -1,0 +1,53 @@
+.pagetwo{
+    background-color: var(--gray-500);
+}
+
+.titletwo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    padding-top: 52px;
+    padding-bottom: 56px;
+    gap: 8px;
+}
+.container-projects{
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha */
+    justify-content: center; /* centraliza os cards */
+    gap: 24px;
+    padding-bottom: 144px;
+}
+
+.project-card{
+    padding: 12px;
+    background-color: var(--gray-400);
+    border-radius: 12px;
+    border: 2px solid transparent;
+
+    width: 340px;      
+    min-height: 280px; 
+    
+
+    img{
+        height: 156px;
+        width: 306px;
+        border-radius: 8px;
+    }
+
+    h4{
+        padding-top: 12px;
+    }
+
+    p{
+        padding-top: 8px;
+    }
+}
+
+.project-card:hover{
+    border: 2px solid var(--gray-200);
+}
+
+.project-card .subtitle-project {
+  flex-grow: 1;
+}

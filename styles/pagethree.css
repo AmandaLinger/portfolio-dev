@@ -1,0 +1,25 @@
+.pagethree{
+    background-color: var(--gray-600);
+}
+
+.container-servicos{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 120px;
+
+    .servicos{
+        background-color: var(--gray-600);
+        padding: 12px;
+
+        width: 288px;      
+        min-height: 150px; 
+
+        border: 2px solid var(--gray-500);
+        border-radius: 12px;
+    }
+}
+
+.servicos:hover{
+    background-color: var(--gray-500);
+}

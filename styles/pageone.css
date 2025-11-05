@@ -1,0 +1,74 @@
+.pageone{
+    background-image: url(../assets/img/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 60px;
+
+    h2{
+        padding-top: 48px;
+    }
+
+    p{
+        padding-top: 20px;
+    }
+
+
+}
+.icon-foto{
+
+    position: relative;
+    display: inline-block;
+
+    .icon-code{
+        position: absolute;
+
+        position: absolute;
+        bottom: 0;  /* encosta na parte de baixo */
+        right: 0;   /* encosta no canto direito */
+
+    }
+}
+
+.perfil-img{
+        height: 96px;
+        width: 96px;
+
+        border-radius: 50%;
+        border: 3px solid var(--red);
+}
+
+.stacks-container{
+    display: flex;
+
+    padding-top:48px;
+    padding-bottom: 94px;
+    gap: 16PX;
+}
+
+.stacks{
+    color: var(--gray-200);
+    font-size: var(--fs-md);
+    font-family: var(--ff-mavenpro);
+    display: flex;
+    align-items: center;
+    gap: 8px ;
+
+    padding: 8px 16px;
+    background-color: var(--gray-400) ;
+    border-radius: 32px ;
+
+    img{
+        height: 22px;
+        width: 22px;
+    }
+}
+.seta-icon{
+    padding-bottom: 34px;
+}
