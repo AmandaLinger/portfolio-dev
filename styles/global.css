@@ -1,15 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; /*deixa a fonte mais leve/fina*/
+}
+
+
+
 .pageone{
     background-image: url(../assets/img/Background_Intro.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 60px;
+
+
+}
+.icon-foto{
+    padding-bottom: 48px ;
 }
 
 .perfil-img{
         height: 96px;
         width: 96px;
-    }
+}
 
+.stacks-container{
+    display: flex;
+
+    padding-top:48px;
+    padding-bottom: 60px;
+    gap: 16PX;
+}
+
+.stacks{
+    color: var(--gray-200);
+    font-size: var(--fs-md);
+    display: flex;
+    align-items: center;
+    gap: 8px ;
+
+    padding: 8px 16px;
+    background-color: var(--gray-400) ;
+    border-radius: 32px ;
+
+    img{
+        height: 22px;
+        width: 22px;
+    }
+}
+.seta-icon{
+    padding-bottom: 34px;
+}
 
 .pagetwo{
     background-color: var(--gray-400);

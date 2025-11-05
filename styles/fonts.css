@@ -1,0 +1,45 @@
+:root{
+    --ff-asap: 'asap', system-ui, sans-serif;
+    --ff-inconsolata: 'Inconsolata', sans-serif;
+    --ff-mavenpro: 'Maven Pro', sans-serif;
+
+    --fs-lg:56px;
+    --fs-md:24px;
+    --fs-sm:16px;
+
+    --fs-subtitle:20px;
+}
+
+
+h1,h2,h3,h4{
+    color: var(--gray-100);
+}
+strong{
+        color: var(--red);
+        font-family: var(--ff-inconsolata);
+}
+
+h2{
+    font-family: var(--ff-inconsolata);
+    font-size: var(--fs-subtitle);
+    margin-bottom: 8px;
+}
+h1{
+    font-family: var(--ff-asap);
+    font-size: var(--fs-lg);
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+p{
+    color: var(--gray-300);
+    font-size: var(--fs-sm);
+    padding-top: 20px;
+}
+
+.subtitle{
+    font-family: var(--ff-asap);
+    font-size: var(--fs-md);
+    font-weight: bold;
+    color: var(--gray-100);
+}
